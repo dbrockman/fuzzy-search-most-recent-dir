@@ -2,11 +2,20 @@
 
 Print the name of the most recently modified directory that matches a fuzzy search
 
+
+## Install
+
+```sh
+$ npm install --global fuzzy-search-most-recent-dir
+```
+
+
 ## Usage
 
 ```sh
-fuzzy-search-most-recent-dir <directory> <fuzzy-search-pattern>
+$ fuzzy-search-most-recent-dir <directory> <fuzzy-search-pattern>
 ```
+
 
 ## Purpose
 
