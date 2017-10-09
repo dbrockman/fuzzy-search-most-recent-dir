@@ -1,5 +1,7 @@
 # fuzzy-search-most-recent-dir
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dbrockman/fuzzy-search-most-recent-dir.svg)](https://greenkeeper.io/)
+
 Print the name of the most recently modified directory that matches a fuzzy search
 
 ## Usage
