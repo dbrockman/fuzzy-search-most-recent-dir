@@ -1,0 +1,16 @@
+{
+  "name": "fuzzy-search-most-recent-dir",
+  "version": "1.0.0",
+  "files": [
+    "cli.js"
+  ],
+  "bin": {
+    "fuzzy-search-most-recent-dir": "cli.js"
+  },
+  "dependencies": {
+    "fuzzysearch": "^1.0.3"
+  },
+  "repository": "git@github.com:dbrockman/fuzzy-search-most-recent-dir.git",
+  "author": "David Brockman Smoliansky",
+  "license": "MIT"
+}
