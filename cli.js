@@ -13,10 +13,12 @@ function select() {
   for (var i = 0; i < haystacks.length; i++) {
     var haystack = haystacks[i];
     if (haystack && fuzzysearch(needle, haystack)) {
-      return resolve(cwd, haystack);
+      console.log(resolve(cwd, haystack));
+      return;
     }
   }
-  throw new Error('No match for "' + needle + '" in ' + cwd);
+  console.error('No match for "%s" in %s', needle, cwd);
+  process.exit(1);
 }
 
-process.stdout.write(select());
+select();
